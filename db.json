@@ -1,0 +1,22 @@
+{
+	"properties": [
+		{
+			"image": "test",
+			"numberOfRooms": "test",
+			"address": "test",
+			"postcode": "test",
+			"description": "test",
+			"askingPrice": "test",
+			"status": "test"
+		},
+		{
+			"image": "test",
+			"numberOfRooms": "test",
+			"address": "test",
+			"postcode": "test",
+			"description": "test",
+			"askingPrice": "test",
+			"status": "test"
+		}
+	]
+}
