@@ -1,13 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-import React from 'react';
+import React, { useState } from 'react';
+import PropertyList from './components/PropertyList/PropertyList';
 
 function App() {
+	const [items, setItems] = useState( [] );
+
 	function fetchData() {
 		fetch( 'http://localhost:3004/properties')
 			.then( res => res.json() )
 			.then( ( result ) => {
-				console.log( result );
+				setItems( result );
 			})
 	}
 
@@ -17,7 +20,7 @@ function App() {
 
 	return (
 		<div className="App">
-			Zoopla codetest
+			<PropertyList items = { items } />
 		</div>
 	);
 }

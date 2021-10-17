@@ -1,6 +1,7 @@
 {
 	"properties": [
 		{
+			"id": 1,
 			"image": "test",
 			"numberOfRooms": "test",
 			"address": "test",
@@ -10,6 +11,7 @@
 			"status": "test"
 		},
 		{
+			"id": 2,
 			"image": "test",
 			"numberOfRooms": "test",
 			"address": "test",
