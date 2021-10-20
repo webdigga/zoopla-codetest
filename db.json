@@ -2,23 +2,33 @@
 	"properties": [
 		{
 			"id": 1,
-			"image": "test",
-			"numberOfRooms": "test",
-			"address": "test",
-			"postcode": "test",
-			"description": "test",
-			"askingPrice": "test",
-			"status": "test"
+			"image": "https://picsum.photos/200",
+			"numberOfRooms": "2",
+			"address": "22 Acacia avenue",
+			"postcode": "N56 6NU",
+			"description": "2 bedroom maisonette overlooking Glory Park",
+			"askingPrice": "£350,000",
+			"status": "active"
 		},
 		{
 			"id": 2,
-			"image": "test",
-			"numberOfRooms": "test",
-			"address": "test",
-			"postcode": "test",
-			"description": "test",
-			"askingPrice": "test",
-			"status": "test"
+			"image": "https://picsum.photos/200",
+			"numberOfRooms": "1",
+			"address": "13 Fromer road",
+			"postcode": "KT4 5UN",
+			"description": "1 bedroom flat on the lovely quite Kingston riverside",
+			"askingPrice": "£300,000",
+			"status": "active"
+		},
+		{
+			"id": 3,
+			"image": "https://picsum.photos/200",
+			"numberOfRooms": "2",
+			"address": "56 Saxon street",
+			"postcode": "W4 6RT",
+			"description": "1 bedroom flat in leafy Chiswick",
+			"askingPrice": "£450,000",
+			"status": "expired"
 		}
 	]
 }
