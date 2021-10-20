@@ -6,9 +6,10 @@
 			"numberOfRooms": "2",
 			"address": "22 Acacia avenue",
 			"postcode": "N56 6NU",
-			"description": "2 bedroom maisonette overlooking Glory Park",
+			"description": "2 bedroom maisonette for sale",
 			"askingPrice": "£350,000",
-			"status": "active"
+			"status": "active",
+			"dateListed": "23rd February 2021"
 		},
 		{
 			"id": 2,
@@ -16,9 +17,10 @@
 			"numberOfRooms": "1",
 			"address": "13 Fromer road",
 			"postcode": "KT4 5UN",
-			"description": "1 bedroom flat on the lovely quite Kingston riverside",
+			"description": "1 bedroom flat for sale",
 			"askingPrice": "£300,000",
-			"status": "active"
+			"status": "active",
+			"dateListed": "26th April 2021"
 		},
 		{
 			"id": 3,
@@ -26,9 +28,10 @@
 			"numberOfRooms": "2",
 			"address": "56 Saxon street",
 			"postcode": "W4 6RT",
-			"description": "1 bedroom flat in leafy Chiswick",
+			"description": "1 bedroom flat for sale",
 			"askingPrice": "£450,000",
-			"status": "expired"
+			"status": "expired",
+			"dateListed": "2nd September 2021"
 		}
 	]
 }
