@@ -2,7 +2,7 @@ import React from "react";
 
 function Save ( props ) {
 	return (
-		<p>Save</p>
+		<button>Save</button>
 	);
 }
 

@@ -9,7 +9,8 @@
 			"description": "2 bedroom maisonette for sale",
 			"askingPrice": "£350,000",
 			"status": "active",
-			"dateListed": "23rd February 2021"
+			"dateListed": "23rd February 2021",
+			"logo": "https://picsum.photos/75/50"
 		},
 		{
 			"id": 2,
@@ -20,7 +21,8 @@
 			"description": "1 bedroom flat for sale",
 			"askingPrice": "£300,000",
 			"status": "active",
-			"dateListed": "26th April 2021"
+			"dateListed": "26th April 2021",
+			"logo": "https://picsum.photos/75/50"
 		},
 		{
 			"id": 3,
@@ -31,7 +33,8 @@
 			"description": "1 bedroom flat for sale",
 			"askingPrice": "£450,000",
 			"status": "expired",
-			"dateListed": "2nd September 2021"
+			"dateListed": "2nd September 2021",
+			"logo": "https://picsum.photos/75/50"
 		}
 	]
 }

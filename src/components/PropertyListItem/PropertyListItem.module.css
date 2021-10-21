@@ -1,0 +1,50 @@
+.item {
+	border: 1px solid var(--grey-1);
+	margin-bottom: var(--space-x2);
+	max-width: 900px;
+}
+
+.top {
+
+}
+
+.image {
+	
+}
+
+.meta {
+	padding: var(--space-x1);
+}
+
+.logo {
+	margin-left: auto;
+	padding: var(--space-x1);
+}
+
+.bottom {
+	padding: var(--space-x1);
+}
+
+.date {
+	
+}
+
+.save {
+	
+}
+
+@media screen and (min-width: 400px) {
+	.item {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.top {
+		display: flex;
+	}
+
+	.bottom {
+		display: flex;
+		justify-content: space-between;
+	}
+}

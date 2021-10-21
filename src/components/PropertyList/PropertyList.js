@@ -1,9 +1,11 @@
 import React from "react";
-import PropertyListItem from '../PropertyListItem/PropertyListItem'
+import PropertyListItem from '../PropertyListItem/PropertyListItem';
+
+import styles from './PropertyList.module.css';
 
 function PropertyList ( props ) {
 	return (
-		<ul>
+		<ul className={ styles.list }>
 			{
 				props.items.map( ( item ) => {
 					return (
