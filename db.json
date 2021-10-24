@@ -2,7 +2,7 @@
 	"properties": [
 		{
 			"id": 1,
-			"image": "https://picsum.photos/200",
+			"image": "https://picsum.photos/id/1029/430/310",
 			"numberOfRooms": "2",
 			"address": "22 Acacia avenue",
 			"postcode": "N56 6NU",
@@ -10,11 +10,11 @@
 			"askingPrice": "£350,000",
 			"status": "active",
 			"dateListed": "23rd February 2021",
-			"logo": "https://picsum.photos/75/50"
+			"logo": "https://picsum.photos/id/175/73/39"
 		},
 		{
 			"id": 2,
-			"image": "https://picsum.photos/200",
+			"image": "https://picsum.photos/id/1031/430/310",
 			"numberOfRooms": "1",
 			"address": "13 Fromer road",
 			"postcode": "KT4 5UN",
@@ -22,11 +22,11 @@
 			"askingPrice": "£300,000",
 			"status": "active",
 			"dateListed": "26th April 2021",
-			"logo": "https://picsum.photos/75/50"
+			"logo": "https://picsum.photos/id/23/73/39"
 		},
 		{
 			"id": 3,
-			"image": "https://picsum.photos/200",
+			"image": "https://picsum.photos/id/1040/430/310",
 			"numberOfRooms": "2",
 			"address": "56 Saxon street",
 			"postcode": "W4 6RT",
@@ -34,7 +34,7 @@
 			"askingPrice": "£450,000",
 			"status": "expired",
 			"dateListed": "2nd September 2021",
-			"logo": "https://picsum.photos/75/50"
+			"logo": "https://picsum.photos/id/175/73/39"
 		}
 	]
 }

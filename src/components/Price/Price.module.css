@@ -1,0 +1,7 @@
+.price {
+	color: rgb(50, 39, 68);
+	font-size: 1.375rem;
+    font-weight: 600;
+    line-height: 1.25;
+    margin-bottom: var(--space-half)
+}

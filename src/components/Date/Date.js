@@ -1,8 +1,12 @@
 import React from "react";
 
+import styles from './Date.module.css';
+
 function Date ( props ) {
 	return (
-		<div>{ props.item.dateListed }</div>
+		<div className={ styles.date }>
+			Listed on <time>{ props.item.dateListed }</time>
+		</div>
 	);
 }
 

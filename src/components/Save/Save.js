@@ -1,8 +1,12 @@
 import React from "react";
 
-function Save ( props ) {
+import styles from './Save.module.css'
+
+function Save () {
 	return (
-		<button>Save</button>
+		<button className={ styles.save }>
+			Save
+		</button>
 	);
 }
 

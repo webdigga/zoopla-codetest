@@ -1,8 +1,12 @@
 import React from "react";
 
+import styles from './Address.module.css';
+
 function Address ( props ) {
 	return (
-		<div>{ props.item.address }</div>
+		<div className={ styles.address }>
+			{ props.item.address }
+		</div>
 	);
 }
 

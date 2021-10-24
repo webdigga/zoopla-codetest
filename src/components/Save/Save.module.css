@@ -1,0 +1,14 @@
+.container {
+	display: flex;
+}
+
+.save {
+	all: unset;
+	color: #322744;
+	cursor: pointer;
+	font-weight: 600;
+	text-decoration: underline;
+    text-decoration-color: #8046F1;
+    text-decoration-thickness: 1px;
+    text-underline-position: under;
+}

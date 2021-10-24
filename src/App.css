@@ -1,9 +1,13 @@
 :root {
 	--grey-1: #ccc;
-	--space-x1: 8px;
-	--space-x2: 16px;
+	--space-half: 0.5rem;
+	--space-x1: 1rem;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
 }
 
 .container {
-	padding: var(--space-x2);
+	padding: var(--space-x1);
 }

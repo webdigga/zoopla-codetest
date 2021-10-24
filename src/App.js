@@ -1,17 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
 import React, { useState } from 'react';
 import PropertyList from './components/PropertyList/PropertyList';
 
-// TODO - Add Agency logo to db JSON and output in component
 // TODO - Use appropriate markup for some of the semantic components
-// TODO - Proximity?
-// TODO - Label list array in db and output in component
-// TODO - Add list item layout styles
-// TODO - Add component styles
 // TODO - Ablity to mark an item as expired
 // TODO - different styling for expired item
-
+// TODO - Write some basic tests
 
 function App() {
 	const [items, setItems] = useState( [] );

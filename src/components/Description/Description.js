@@ -1,8 +1,12 @@
 import React from "react";
 
+import styles from './Description.module.css';
+
 function Description ( props ) {
 	return (
-		<div>{ props.item.description }</div>
+		<div className={ styles.description }>
+			{ props.item.description }
+		</div>
 	);
 }
 

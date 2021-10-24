@@ -1,36 +1,22 @@
 .item {
 	border: 1px solid var(--grey-1);
-	margin-bottom: var(--space-x2);
+	margin-bottom: var(--space-x1);
 	max-width: 900px;
 }
 
-.top {
-
-}
-
-.image {
-	
-}
-
 .meta {
-	padding: var(--space-x1);
+	padding: var(--space-half);
 }
 
 .logo {
 	margin-left: auto;
-	padding: var(--space-x1);
+	padding: var(--space-half);
 }
 
 .bottom {
-	padding: var(--space-x1);
-}
-
-.date {
-	
-}
-
-.save {
-	
+	display: flex;
+    justify-content: space-between;
+	padding: var(--space-half);
 }
 
 @media screen and (min-width: 400px) {
@@ -46,5 +32,10 @@
 	.bottom {
 		display: flex;
 		justify-content: space-between;
+	}
+
+	.meta,
+	.logo {
+		padding: var(--space-x1);
 	}
 }

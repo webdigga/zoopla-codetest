@@ -1,8 +1,14 @@
 import React from "react";
 
+import styles from './Image.module.css';
+
 function Image ( props ) {
 	return (
-		<img src={ props.item.image } />
+		<img
+			className={ styles.image }
+			src={ props.item.image }
+			alt="Property for sale"
+		/>
 	);
 }
 

@@ -31,13 +31,8 @@ function PropertyListItem ( props ) {
 			</div>
 			
 			<div className={ styles.bottom }>
-				<div className={ styles.date }>
-					<Date item = { props.item } key = { props.item.id } />
-				</div>
-
-				<div className={ styles.save }>
-					<Save item = { props.item } key = { props.item.id } />
-				</div>
+				<Date item = { props.item } key = { props.item.id } />
+				<Save item = { props.item } key = { props.item.id } />
 			</div>
 			
 		</li>

@@ -1,0 +1,7 @@
+.description {
+	color: rgb(50, 39, 68);
+	font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.375;
+    padding-top: var(--space-half);
+}
