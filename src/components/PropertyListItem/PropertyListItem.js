@@ -15,26 +15,25 @@ function PropertyListItem ( props ) {
 		<li className={ styles.item }>
 			<div className={ styles.top }>
 				<div className={ styles.image }>
-					<Image item = { props.item } key = { props.item.id } />
+					<Image item = { props.item } />
 				</div>
 
 				<div className={ styles.meta }>
-					<Price item = { props.item } key = { props.item.id } />
-					<Rooms item = { props.item } key = { props.item.id } />
-					<Description item = { props.item } key = { props.item.id } />
-					<Address item = { props.item } key = { props.item.id } />
+					<Price item = { props.item } />
+					<Rooms item = { props.item } />
+					<Description item = { props.item } />
+					<Address item = { props.item } />
 				</div>
 
 				<div className={ styles.logo }>
-					<Logo item = { props.item } key = { props.item.id } />
+					<Logo item = { props.item } />
 				</div>
 			</div>
 			
 			<div className={ styles.bottom }>
-				<Date item = { props.item } key = { props.item.id } />
-				<Save item = { props.item } key = { props.item.id } />
+				<Date item = { props.item } />
+				<Save item = { props.item } />
 			</div>
-			
 		</li>
 	);
 }

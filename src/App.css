@@ -1,5 +1,7 @@
 :root {
-	--grey-1: #ccc;
+	--grey-1: #cccccc;
+	--grey-2: #676464;
+	--white-1: #ffffff;
 	--space-half: 0.5rem;
 	--space-x1: 1rem;
 }

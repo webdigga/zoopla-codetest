@@ -1,3 +1,22 @@
+.container {
+	position: relative;
+}
+
 .image {
 	max-width: 100%;
+}
+
+.status {
+	all: unset;
+	background-color: var(--grey-2);
+	border-radius: var(--space-half);
+	color: var(--white-1);
+	cursor: pointer;
+	font-size: 0.9rem;
+	left: var(--space-half);
+	padding: var(--space-half);
+	position: absolute;
+	text-decoration: none;
+	text-transform: capitalize;
+	top: var(--space-half);
 }

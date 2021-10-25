@@ -2,10 +2,12 @@ import './App.css';
 import React, { useState } from 'react';
 import PropertyList from './components/PropertyList/PropertyList';
 
-// TODO - Use appropriate markup for some of the semantic components
 // TODO - Ablity to mark an item as expired
 // TODO - different styling for expired item
+// TODO - store data in local storage and check for this before fetching from API?
 // TODO - Write some basic tests
+// TODO - Update readme
+// TODO - Tidy up empty divs
 
 function App() {
 	const [items, setItems] = useState( [] );
@@ -23,7 +25,7 @@ function App() {
 	}, []);
 
 	return (
-		<div class="container">
+		<div className="container">
 			<PropertyList items = { items } />
 		</div>
 	);
