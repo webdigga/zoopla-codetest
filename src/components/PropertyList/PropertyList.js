@@ -9,7 +9,11 @@ function PropertyList ( props ) {
 			{
 				props.items.map( ( item ) => {
 					return (
-						<PropertyListItem item = { item } key = { item.id } />
+						<PropertyListItem
+							item = { item }
+							key = { item.id }
+							onStatusClick = { props.onStatusClick }
+						/>
 					)
 				})
 			}

@@ -3,8 +3,10 @@ import React from "react";
 import styles from './Image.module.css';
 
 function Image ( props ) {
-	function clickHandler() {
-		console.log( 'Boom' );
+	function changeStatus( item ) {
+		item.status = item.status === 'active' ? 'expired': 'active';
+
+		props.onStatusClick( props.item );
 	}
 
 	return (
@@ -16,8 +18,8 @@ function Image ( props ) {
 			/>
 			
 			<button
-				className={ styles.status }
-				onClick={ () => { clickHandler() } }>
+				className={ `${styles.status} ${styles[props.item.status]}` }
+				onClick={ () => { changeStatus( props.item ) } }>
 				{ props.item.status }
 			</button>
 		</div>

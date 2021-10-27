@@ -20,13 +20,21 @@ function App() {
 			})
 	}
 
+	function handleStatusState( item ) {
+		const newState = [...items, item];
+		setItems( [...newState] );
+	}
+
 	React.useEffect(() => {
 		fetchData();
 	}, []);
 
 	return (
 		<div className="container">
-			<PropertyList items = { items } />
+			<PropertyList
+				items = { items }
+				onStatusClick = { handleStatusState }
+			/>
 		</div>
 	);
 }

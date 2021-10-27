@@ -15,7 +15,10 @@ function PropertyListItem ( props ) {
 		<li className={ styles.item }>
 			<div className={ styles.top }>
 				<div className={ styles.image }>
-					<Image item = { props.item } />
+					<Image
+						item = { props.item }
+						onStatusClick = { props.onStatusClick }
+					/>
 				</div>
 
 				<div className={ styles.meta }>

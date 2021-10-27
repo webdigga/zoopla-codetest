@@ -20,3 +20,11 @@
 	text-transform: capitalize;
 	top: var(--space-half);
 }
+
+.expired {
+	background-color: var(--expired);
+}
+
+.active {
+	background-color: var(--grey-2);
+}
