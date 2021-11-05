@@ -2,8 +2,6 @@ import './App.css';
 import React, { useState } from 'react';
 import PropertyList from './components/PropertyList/PropertyList';
 
-// TODO - Ablity to mark an item as expired
-// TODO - different styling for expired item
 // TODO - store data in local storage and check for this before fetching from API?
 // TODO - Write some basic tests
 // TODO - Update readme
@@ -21,8 +19,12 @@ function App() {
 	}
 
 	function handleStatusState( item ) {
-		const newState = [...items, item];
-		setItems( [...newState] );
+		const arrIndex = parseInt( item.id ) - 1;
+		const itemsCopy = [...items];
+		const itemCopy = {...itemsCopy[arrIndex]};
+		items[arrIndex] = itemCopy;
+
+		setItems( [...items] )
 	}
 
 	React.useEffect(() => {
