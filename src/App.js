@@ -2,20 +2,26 @@ import './App.css';
 import React, { useState } from 'react';
 import PropertyList from './components/PropertyList/PropertyList';
 
-// TODO - store data in local storage and check for this before fetching from API?
 // TODO - Write some basic tests
-// TODO - Update readme
-// TODO - Tidy up empty divs
 
 function App() {
 	const [items, setItems] = useState( [] );
 
 	function fetchData() {
-		fetch( 'http://localhost:3004/properties')
+
+		// Check if we have local storage here
+		// If we have it then fetch fron local storage
+		if ( localStorage.getItem( 'properties' ) ) {
+			setItems( JSON.parse( localStorage.getItem( 'properties' ) ) );
+		
+		// Otherwise get from API
+		} else {
+			fetch( 'http://localhost:3004/properties')
 			.then( res => res.json() )
 			.then( ( result ) => {
 				setItems( result );
 			})
+		}
 	}
 
 	function handleStatusState( item ) {
@@ -24,7 +30,10 @@ function App() {
 		const itemCopy = {...itemsCopy[arrIndex]};
 		items[arrIndex] = itemCopy;
 
-		setItems( [...items] )
+		setItems( [...items] );
+
+		// Send the new data to local storage
+		localStorage.setItem( 'properties', JSON.stringify( [ ...items ] ) );
 	}
 
 	React.useEffect(() => {
