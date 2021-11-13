@@ -42,6 +42,8 @@ function App() {
 
 	return (
 		<div className="container">
+			<h1>Product listing</h1>
+
 			<PropertyList
 				items = { items }
 				onStatusClick = { handleStatusState }

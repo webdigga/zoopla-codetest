@@ -22,8 +22,8 @@ function PropertyListItem ( props ) {
 				<div className={ styles.meta }>
 					<Price item = { props.item } />
 					<Rooms item = { props.item } />
-					<Description item = { props.item } />
-					<Address item = { props.item } />
+					<Description description = { props.item.description } />
+					<Address address = { props.item.address } />
 				</div>
 
 				<div className={ styles.logo }>
@@ -32,7 +32,7 @@ function PropertyListItem ( props ) {
 			</div>
 			
 			<div className={ styles.bottom }>
-				<Date item = { props.item } />
+				<Date date = { props.item.dateListed } />
 				<Save item = { props.item } />
 			</div>
 		</li>

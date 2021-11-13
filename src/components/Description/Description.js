@@ -5,7 +5,7 @@ import styles from './Description.module.css';
 function Description ( props ) {
 	return (
 		<div className={ styles.description }>
-			{ props.item.description }
+			{ props.description }
 		</div>
 	);
 }
