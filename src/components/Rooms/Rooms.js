@@ -17,7 +17,7 @@ function Rooms ( props ) {
 				</svg>
 			</span>
 			<span className={ styles.number }>
-				{ props.item.numberOfRooms }
+				{ props.numberOfRooms }
 			</span>
 		</div>
 

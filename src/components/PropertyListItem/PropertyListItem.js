@@ -20,20 +20,20 @@ function PropertyListItem ( props ) {
 				/>
 
 				<div className={ styles.meta }>
-					<Price item = { props.item } />
-					<Rooms item = { props.item } />
+					<Price askingPrice = { props.item.askingPrice } />
+					<Rooms numberOfRooms = { props.item.numberOfRooms } />
 					<Description description = { props.item.description } />
 					<Address address = { props.item.address } />
 				</div>
 
 				<div className={ styles.logo }>
-					<Logo item = { props.item } />
+					<Logo logo = { props.item.logo } />
 				</div>
 			</div>
 			
 			<div className={ styles.bottom }>
 				<Date date = { props.item.dateListed } />
-				<Save item = { props.item } />
+				<Save />
 			</div>
 		</li>
 	);
