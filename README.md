@@ -1,3 +1,7 @@
+## Installation
+
+### `npm i`
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -14,3 +18,11 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+## Further work
+
+With more time I would have:-
+
+1. Added more unit tests
+2. Added Typescript for better type checking
+3. Added proper error handling for user to get notification when API is not responding

@@ -14,7 +14,9 @@ function Image ( props ) {
 			<img
 				className={ styles.image }
 				src={ props.item.image }
-				alt="Property for sale"
+				alt={ props.item.description }
+				width="430px"
+				height="310px"
 			/>
 			
 			<button

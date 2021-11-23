@@ -4,9 +4,9 @@ import styles from './Address.module.css';
 
 function Address ( props ) {
 	return (
-		<div className={ styles.address }>
+		<address className={ styles.address }>
 			{ props.address }
-		</div>
+		</address>
 	);
 }
 
