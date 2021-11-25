@@ -1,7 +1,7 @@
 import './App.css';
 import React, { useState } from 'react';
 import PropertyList from './components/PropertyList/PropertyList';
-
+import { StatusContext } from './statusContext';
 
 /*
 * Consider: itemsCopy.find( ({ id }) => id === item.id )
@@ -13,7 +13,7 @@ import PropertyList from './components/PropertyList/PropertyList';
 function App() {
 	const [items, setItems] = useState( [] );
 
-	function handleStatusState( item ) {
+	function onStatusClick( item ) {
 		const arrIndex = parseInt( item.id ) - 1;
 		const itemsCopy = [...items];
 		const itemCopy = {...itemsCopy[arrIndex]};
@@ -48,10 +48,11 @@ function App() {
 		<main className="container">
 			<h1>Product listing</h1>
 
-			<PropertyList
-				items = { items }
-				onStatusClick = { handleStatusState }
-			/>
+			<StatusContext.Provider value={ onStatusClick }>
+				<PropertyList
+					items = { items }
+				/>
+			</StatusContext.Provider>
 		</main>
 	);
 }

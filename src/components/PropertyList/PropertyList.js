@@ -12,7 +12,6 @@ function PropertyList ( props ) {
 						<PropertyListItem
 							item = { item }
 							key = { item.id }
-							onStatusClick = { props.onStatusClick }
 						/>
 					)
 				})
