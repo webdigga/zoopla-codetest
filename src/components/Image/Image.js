@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from './Image.module.css';
 
-import { StatusContext } from '../../statusContext';
+import { StatusContext } from '../../context/statusContext';
 
 function Image ( props ) {
 	return (

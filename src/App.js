@@ -1,15 +1,14 @@
 import './App.css';
 import React, { useState } from 'react';
 import PropertyList from './components/PropertyList/PropertyList';
-import { StatusContext } from './statusContext';
+import { StatusContext } from './context/statusContext';
 
 /*
 * Consider: itemsCopy.find( ({ id }) => id === item.id )
-* onStatusClick passed down to multiple components. Consider Context (https://reactjs.org/docs/context.html)
-* Found the Image component a little confusing with the button present and passing in the whole item.
-* Tests present but basic ‘render’. Would have liked to have seen the user clicking the expire button etc.
+* Add TypeScript
+* Split button from image component.
+* Test the click of the button.
 */
-
 function App() {
 	const [items, setItems] = useState( [] );
 
@@ -48,7 +47,7 @@ function App() {
 		<main className="container">
 			<h1>Product listing</h1>
 
-			<StatusContext.Provider value={ onStatusClick }>
+			<StatusContext.Provider value={ { onStatusClick } }>
 				<PropertyList
 					items = { items }
 				/>
